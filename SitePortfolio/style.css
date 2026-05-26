@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* INICIO HEADER */
+.nav{
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  /* z-index: 9; Este é o item mais importante na web */
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 28px;
+}
+
+.nav-list a{
+  text-decoration: none;
+  color: #DDD;
+  padding: 20px;
+}
+
+.nav-list a:hover{
+  color: #FFFFFF;
+}
+/* FIM HEADER */
+
+
+/* INICIO MAIN */
+.main{
+  width: 100%;
+  background-color: #000;
+  height: calc(100vh - 80px);
+  background-image: url("images/programacao.png");
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1{
+  color: #FFFFFF;
+  font-size: 54px;
+}
+
+.main p {
+  font-size: 24px;
+  font-style: italic;
+  color: #1e96FC;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.call-to-action{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border:0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.call-to-action:hover{
+    transform: scale(1.1);
+}
+
+.main a{
+  text-decoration: none;
+  color: #181818;
+}
+/* FIM MAIN */
+
+/* INICIO SOBRE */
+.about{
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about div h2{
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+/* FIM SOBRE */
