@@ -9,6 +9,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* INICIO HEADER */
 .nav{
   background-color: #181818;
@@ -115,3 +119,138 @@ body{
     margin-bottom: 14px;
 }
 /* FIM SOBRE */
+
+/* INICIO PROJECTS */
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.projects h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.projects p{
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.project-list{
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img{
+  width: 22%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  opacity: 0.8;
+  transition: 0.9s;
+}
+
+.projects img:hover{
+  opacity: 1;
+}
+
+.action{
+  background-color: #181818;
+  border: 0;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 18px;
+  cursor: pointer;
+}
+/* FIM PROJECTS */
+
+/* INICIO RODAPÉ */
+footer{
+  width: 100%;
+  background-color: #181818;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p{
+  margin-left: 8px;
+}
+/* FIM RODAPÉ */
+
+/* RESPONSIVIDADE */
+@media (max-width: 1050px){
+  /* INICIO MAIN */
+  .main h1{
+    font-size: 45px;
+  }
+
+  .main p{
+    font-size: 18px;
+  }
+
+  .main{
+    background-size: cover;
+  }
+  /* FIM MAIN */
+
+  /* INICIO SOBRE */
+  .about{
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about div{
+    max-width: 80%
+  }
+
+  .about div h2{
+    font-size: 45px
+  }
+
+  .about img{
+    width: 80%;
+    margin-top: 30px
+  }
+  /* FIM SOBRE */
+
+  /* INICIO PROJECTS */
+  .projects img{
+    width: 27.5%;
+  }
+  /* FIM PROJECTS */
+
+  /* INICIO RODAPÉ */
+  footer{
+    flex-direction: column;
+  }
+
+  footer h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  footer p{
+    margin: 0;
+  }
+  /* FIM RODAPÉ */
+}
