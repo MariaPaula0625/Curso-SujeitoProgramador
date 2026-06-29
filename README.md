@@ -7,7 +7,7 @@ O objetivo é acompanhar minha evolução no desenvolvimento full-stack, organiz
 ## 📁 Estrutura do repositório
 
 - Projeto 1: Site Portfólio (Finalizado)
-- Projeto 2: em breve
+- Projeto 2: Instaclone
 - Projeto 3: em breve
 
 ## 🚀 Tecnologias utilizadas (até o momento)
