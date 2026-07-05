@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding-bottom: 35px;
+}
+
+main{
+    max-width: 500px;
+    margin: 35px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.head-feed{
+    display: flex; 
+    align-items: center; 
+    gap: 10px
+}
+
+.fotoPerfil{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.fotoPost{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
