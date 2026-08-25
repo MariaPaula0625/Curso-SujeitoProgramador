@@ -8,12 +8,13 @@ O objetivo é acompanhar minha evolução no desenvolvimento full-stack, organiz
 
 - Projeto 1: Site Portfólio (Finalizado)
 - Projeto 2: Instaclone
-- Projeto 3: em breve
+- Projeto 3: Pagina de login
 
 ## 🚀 Tecnologias utilizadas (até o momento)
 
 - HTML
 - CSS
+- JavaScript
 
 ## 📌 Objetivo
 
