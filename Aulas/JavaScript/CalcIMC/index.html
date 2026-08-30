@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+
+    <h1>Calculadora IMC</h1>
+    
+    <form onsubmit="return calcular(event)">
+
+        <input type="text" id="peso" placeholder="Digite seu peso:">
+        <br><br>
+        <input type="text" id="altura" placeholder="Digite sua altura:">
+        <br><br>
+        <input type="submit" value="Calcular IMC">
+
+    </form> 
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
